@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(35, 138, 176);
+    display: flex;
+}
+.logo{
+    font-size: larger;
+    font-weight: bolder;
+    color:rgba(44, 35, 176,.3);
+    width: 15%;
+    margin: 0 0 0 30px;
+    padding: 20px 0 0 0;
+}
+.logo a{
+    color:rgba(44, 35, 176,.3);
+    text-decoration: none;
+}
+.logo a:hover{
+    color:rgb(44, 35, 176);
+}
+.nav{
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+.nav ul{
+    list-style: none;
+    padding: 30px 0 0 0;
+}
+.nav ul li{
+    display: inline;
+    margin: 0 40px 0 0;
+}
+.nav ul li a{
+    color:rgb(255, 255, 255); 
+    text-decoration: none;
+}
+.third{
+    width: 20%;
+    margin: 25px 0 0 0;
+}
+.third input{
+    width: 80%;
+    height: 30px;
+    background-color:rgba(44, 35, 176,.3);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(44, 35, 176,.3);
+    border-radius: 20px;
+    padding: 0 0 0 20px;
+}
+.image1, .image2{
+    width: 5%;
+    margin: 25px 0 0 0;
+}
+article{
+    margin: 30px 0 0 0;
+    padding: 0 0 0 40px;
+}
+.form2 input{
+    width: 20%;
+    height: 40px;
+}
+.jan{
+    font-weight: bolder;
+}
+.january{
+    margin: 50px 0 0 38px;
+    padding: 0 0 0 10px;
+}
+.feb{
+    font-weight: bolder;
+    margin: 0 40% 0 12%;
+}
+.february{
+    padding: 0 0 0 10px;
+    position: absolute;
+    top: 37%;
+    left:50%;
+}
+.mar{
+    font-weight: bolder;
+}
+.march{
+    padding: 0 0 0 10px;
+    margin: 50px;
+}
+.apr{
+    position: absolute;
+    top: 54%;
+    left: 42%;
+    font-weight: bolder;
+}
+.april{
+    padding: 0 0 0 10px;
+    position: absolute;
+    top:52%;
+    left:50%
+}
+#post{
+    display: block;
+    width: 10%;
+    height: 80px;
+    margin: 40px 0 0 90px;
+    background-color:rgb(35, 138, 176);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+table{
+    width: 100%;
+    height: 40px;
+    border-collapse: collapse;
+}
+.example, .trd2, .trd3, .trd4{
+    height: auto;
+    padding: 0 0 0 10px;
+    color: rgb(0, 0, 0);
+}
+caption{
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+#example{
+    width: 50%;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
